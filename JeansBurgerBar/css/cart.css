@@ -1,0 +1,118 @@
+
+
+.cart_img {
+    width: 250px;
+    position: absolute;
+    left: 0;
+}
+
+.cart_name {
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 0;
+    margin: 5px;
+    display: inline-table;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: black solid 1px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 2px;
+}
+
+.cart_info {
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    border-top: black solid 1px;
+    border-radius: 0 0 5px 5px;
+    height: 80px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.cart_info:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    color: white;
+}
+
+.cart_info:hover > .cart_description {
+    display: block;
+}
+
+.cart_description {
+    display: none;
+    color: white;
+    padding: 10px;
+}
+
+.cart_main {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+    padding: 5px 0;
+}
+
+.cart_cost_count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.cart_cost {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.in_basket {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+.cart_counter {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    padding-bottom: 3px;
+}
+
+.cart_count {
+    display: inline-block;
+    position: relative;
+    width: 10px;
+}
+
+.pm_btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 0;
+    border: black solid 2px;
+    font-size: 15px;
+    position: relative;
+}
+
+.plus:hover {
+    background-color: white;
+    color: rgb(26, 196, 48);
+    border: rgb(26, 196, 48) solid 2px;
+}
+
+.minus:hover {
+    background-color: white;
+    color: rgb(196, 36, 36);
+    border: rgb(196, 36, 36) solid 2px;
+}

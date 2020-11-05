@@ -1,0 +1,111 @@
+#head {
+    position: fixed;
+    margin: 10px 1%;
+    width: 98%;
+    height: 60px;
+    background-color: black;
+    z-index: 400;
+    top: 0;
+}
+
+@media (min-width: 1124px) {
+
+    .logo {
+        height: 40px;
+        margin: 10px;
+    }
+    
+}
+
+@media (max-width: 1123px) and (min-width: 1001px) {
+
+    .logo {
+        height: 30px;
+        margin: 15px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .logo {
+        height: 20px;
+        margin: 20px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .head_list {
+        list-style-type: none;
+        position: absolute;
+        right: 0;
+        font-size: 17px;
+        padding: 20px;
+        width: 50%;
+    }
+
+    .head_list > li {
+        text-align: center;
+        display: inline-block;
+        width: 32%;
+    }
+
+    li > a {
+        color: white;
+    }
+
+    .logo {
+        position: absolute;
+    }
+
+    #basket_logo_container {
+        position: relative;
+        z-index: 100;
+    }
+
+    #basket_opener {
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        margin: -20px 0 0 7%;
+        z-index: 200;
+    }
+
+    #basket_opener:hover {
+        cursor: pointer;
+    }
+
+    #basket_logo {
+        height: 40px;
+        position: absolute;
+        margin: -14px 0 0 -20px;
+    }
+
+    #basket_logo_counter {
+        position: absolute;
+        color: black;
+        display: block;
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        top: -12px;
+        left: 10px;
+    }
+
+    #basket_logo_sum {
+        position: relative;
+        left: 40px;
+    }
+
+    .blue {
+        background-color: rgb(22,185,237) !important;
+    }
+
+    .blue_txt {
+        color: rgb(22,185,237) !important;
+    }
+
+}

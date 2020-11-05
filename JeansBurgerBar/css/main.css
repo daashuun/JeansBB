@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../Photos/Icons/background.png');
+}
+
+span {
+    font-family: 'Comfortaa';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgb(22,185,237);
+}
+
+button {
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: rgb(22,185,237);
+}
+
+:focus {
+    outline:none;
+}
